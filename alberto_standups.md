@@ -7,7 +7,7 @@
 ## 04-16
 
  -  Did a lot of research as well as investigating to find a way to incorporate the API's from various sites (Twitter and Reddit) into our own project 
- - Riley also taught me how to do [THIS!](google.com)
+ - Riley also taught me how to do [THIS!](https://google.com)
 
 
 ## 04-22
