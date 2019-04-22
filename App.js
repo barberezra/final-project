@@ -11,46 +11,50 @@ class App extends Component {
 
   render() {
     return (
-      medianame = input.valu
-      this.setState({medianame: input.value}) // build input
+      <div>
+      <h1>Type your social media site here</h1><br />
+      <h3>Instagram/Twitter/Reddit</h3>
+        <input onUpdate={(event) => {
+          this.setState({medianame: event.target.value})
+        }}></input>
+        <p>Your selected social media site is: </p>
+      </div>// build input
         // on update: update state
-      {
-        // if medianame is instagram...
-        // else if medianame is reddit...
-        // else...
-      }
     )
-      if (input.value === "instagram") {
-      return (
-        <div className="App">
-          <header className="App-header">
-            <p>Here is the site you requested: </p>
-            <a href="https://www.instagram.com"></a>
-          </header>
-        </div>
-      );
-     }
-      if (input.value === "reddit") {
-         return (
-        <div className="App">
-          <header className="App-header">
-            <p>Here is the site you requested: </p>
-            <a href="https://www.reddit.com"></a>
-          </header>
-        </div>
-      );
-     }
-      if (input.value === "reddit") {
-        return (
-        <div className="App">
-          <header className="App-header">
-            <p>Here is the site you requested: </p>
-            <a href="https://www.instagram.com"></a>
-          </header>
-        </div>
-    );
+  }
+
+/*
+  if (input.value === "instagram") {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <p>Here is the site you requested: </p>
+        <a href="https://www.instagram.com">Instagram</a>
+      </header>
+    </div>
+  );
+ }
+  if (input.value === "reddit") {
+     return (
+    <div className="App">
+      <header className="App-header">
+        <p>Here is the site you requested: </p>
+        <a href="https://www.reddit.com">Reddit</a>
+      </header>
+    </div>
+  );
+ }
+  if (input.value === "twitter") {
+    return (
+    <div className="App">
+      <header className="App-header">
+        <p>Here is the site you requested: </p>
+        <a href="https://www.twitter.com">Twitter</a>
+      </header>
+    </div>
+);
 }
-}
+}*/
 }
 
 export default App;
