@@ -5,3 +5,6 @@ Looked into making a developer Twitter account, as well as creating an email for
 Applied for twitter dev account
 Researched more about twitter and reddit API
 Plan to create a reddit account, with which we will use to send requests
+
+# 4/25/19
+Created a Twitter app, found a javascript library for twitter's API, and got access tokens and keys.  They are a random, long string of letters.  Who could have guessed that?
