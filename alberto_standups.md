@@ -18,3 +18,6 @@
 
 - I got the client side of snoowrap to work (authenticating my login and everything!). Now, I need to work on actually displaying reddit itself.
 
+## 04-26
+
+- Today, I spent a large amount of class-time on researching on snoowrap actually displaying the actual code itself! This is definately becoming a challenge moving forward!
