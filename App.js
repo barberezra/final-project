@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import {ReactComponent as logo} from './logo.svg';
 import './App.css';
 
 
@@ -9,30 +9,41 @@ class App extends Component {
       this.state = {medianame: null};
   }
 
+  add(e) {
+    if (e.keyCode === "13") {
+      this.setState({medianame: e.target.value});
+    }
+  }
+
   render() {
-    return (
+      return (
       <div>
       <h1>Type your social media site here</h1><br />
       <h3>Instagram/Twitter/Reddit</h3>
-        <input onUpdate={(event) => {
-          this.setState({medianame: event.target.value})
+        <input onKeyDown={(event) => {
+          if (event.keyCode === "13") {
+            this.setState = this.setState.bind(this);
+            this.setState({medianame: event.add});
+          }
+          else {
+            console.log("This site is not supported");
+          }
         }}></input>
-        <p>Your selected social media site is: </p>
+        <p>Your selected social media site is: {this.state.medianame} </p>
       </div>// build input
         // on update: update state
     )
   }
 
-/*
-  if (input.value === "instagram") {
-  return (
+  /*if (input.value === "instagram") {
+    return (
     <div className="App">
       <header className="App-header">
         <p>Here is the site you requested: </p>
         <a href="https://www.instagram.com">Instagram</a>
       </header>
     </div>
-  );
+    );
  }
   if (input.value === "reddit") {
      return (
@@ -53,8 +64,9 @@ class App extends Component {
       </header>
     </div>
 );
-}
-}*/
+
+*/
 }
 
 export default App;
+
