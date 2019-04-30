@@ -1,9 +1,9 @@
-var Stream = require('./../index');
+var Stream = require('./index.js');
 var stream = new Stream({
-    consumer_key: 'xxx',
-    consumer_secret: 'xxx',
-    access_token_key: 'xxx',
-    access_token_secret: 'xxx'
+    consumer_key: 'm9gp2aI7YcW72ryvhCMXtcXF8',
+    consumer_secret: 'zI4qpF1Eqy1DRrOsVQSCEQsaJKDTQlKTyjCRDFo14NYpT3csDG',
+    access_token_key: '1118191485063614465-BCXVl0wjzUyCknBlAz9BOZQWn4iSOv',
+    access_token_secret: 'i5PPDFZvXgu9p0kRhIQdYB0JCyJgXFDs3xR9dJhgX8HU0'
 });
 
  // * - data
