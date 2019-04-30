@@ -14,5 +14,10 @@
 
  - Today was a very busy class day! I spent a good amount of time  continuing trying to figure out how to incorporate Reddit (specifically!) With luck, I came across [snoowrap](https://github.com/not-an-aardvark/snoowrap) which is a wrapper, able to access the Reddit site! I ran out of time for today, but I know I need to incorporate [oauth](https://github.com/not-an-aardvark/reddit-oauth-helper) for next class, to be able to create a fully functional Reddit site (hopefully)! A challenge I'm facing is researching a bunch of new terms that I have never heard of before, as well as incorporating these new terms into my project.
 
+## 04-25
 
-test
+- I got the client side of snoowrap to work (authenticating my login and everything!). Now, I need to work on actually displaying reddit itself.
+
+## 04-26
+
+- Today, I spent a large amount of class-time on researching on snoowrap actually displaying the actual code itself! This is definately becoming a challenge moving forward!

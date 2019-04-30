@@ -11,3 +11,8 @@
  ## 04-22
  
  - Uploaded the framework website for the API and also included support to input-based redirection. We have successfully found the APIs for Twitter and Reddit, and will still keep working on implementing the API in the local webpage.
+ - Added the framework for the API and will now keep working with the API and figuring out which feeds get priority and storing unloaded posts behind the overflow div in CSS.
+
+## 04-26
+
+ - Redid the onUpdate function for the input bar. Also added support for the libraries. Still working on importing the libraries and incorporating them in the file.
