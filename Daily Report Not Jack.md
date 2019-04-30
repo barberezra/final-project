@@ -11,3 +11,6 @@ Created a Twitter app, found a javascript library for twitter's API, and got acc
 
 # 4/26/19
 Kept working on editing the boiler plate of the library to custom fit our needs, but ran into a really annoying 404. Progress is slow but steady.
+
+# 4/30/19
+Not even riley could see what was wrong because of the lack of a debugger, making the library take way more time than it is worth.  Switched to a new library though!
