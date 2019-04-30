@@ -16,3 +16,7 @@
 ## 04-26
 
  - Redid the onUpdate function for the input bar. Also added support for the libraries. Still working on importing the libraries and incorporating them in the file.
+ 
+## 04-30
+
+ - Figured out how to implement the reading of the input value and changing the state accordingly. We will incorporate the APIs soon, but I have to complete the value reading function.
