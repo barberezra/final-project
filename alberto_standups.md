@@ -21,3 +21,7 @@
 ## 04-26
 
 - Today, I spent a large amount of class-time on researching on snoowrap actually displaying the actual code itself! This is definately becoming a challenge moving forward!
+
+## 03-30
+
+- I commmuncated snoowrap itself, using Riley's "suggestions" of first learning what commands I can actually do (learning snoowrap itself), with the hope of actually implementing these commands into a HTML later.
