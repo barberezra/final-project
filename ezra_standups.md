@@ -20,3 +20,6 @@
 ## 04-30
 
  - Figured out how to implement the reading of the input value and changing the state accordingly. We will incorporate the APIs soon, but I have to complete the value reading function.
+ 
+## 05-3
+ - Need to figure out how to save and read the state of the input bar, but the function is not getting to the other function that saves it. That should be pretty simple, so I can spend the weekend working on it. We are now going to experiment with APIs and start linking them to website files and send and receive HTTP requests.
