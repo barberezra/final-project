@@ -17,3 +17,7 @@ Not even riley could see what was wrong because of the lack of a debugger, makin
 
 # 5/1/19
 Found a great new library, but need mocha to run it.  However, my computer is fighting me with permission to install it.  It is saying that I need to be an admin.  Well, Riley fixed that with sudo, but still working on running the test.
+
+# 5/3/19
+
+Found a new API, hopefully it works this time.  *sigh*
