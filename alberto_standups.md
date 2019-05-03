@@ -30,3 +30,9 @@
 ## 04-1
 
 - Today, following Riley's otheer suggestion today, I started eperimenting with some of the code itself in snoowrap! I did a lot of trial and error, but I unfortunately did not get the code to work. However, I did definately get more familiar with the code itself!
+
+
+
+## 04-3 
+
+- I got to study the program itself more, as well as continue looking more wrappers!
