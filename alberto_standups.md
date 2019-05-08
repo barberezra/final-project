@@ -27,18 +27,18 @@
 - I commmuncated snoowrap itself, using Riley's "suggestions" of first learning what commands I can actually do (learning snoowrap itself), with the hope of actually implementing these commands into a HTML later.
 
 
-## 04-1
+## 04-01
 
 - Today, following Riley's otheer suggestion today, I started eperimenting with some of the code itself in snoowrap! I did a lot of trial and error, but I unfortunately did not get the code to work. However, I did definately get more familiar with the code itself!
 
 
 
-## 04-3 
+## 04-03 
 
 - I got to study the program itself more, as well as continue looking more wrappers!
 
 
-## 4-8
+## 04-08
 
 - Presented in class!
 - Worked on styling with Ezra (being able to make images bigger when hovering over it)
