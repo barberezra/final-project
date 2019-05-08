@@ -1,0 +1,6 @@
+img {
+	margin: 10px 20px 25px 10px;
+	border: 18px solid lightgray;
+}
+img:hover {
+	transform: scale(175, 125);
