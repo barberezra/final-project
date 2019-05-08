@@ -36,3 +36,10 @@
 ## 04-3 
 
 - I got to study the program itself more, as well as continue looking more wrappers!
+
+
+## 4-8
+
+- Presented in class!
+- Worked on styling with Ezra (being able to make images bigger when hovering over it)
+
