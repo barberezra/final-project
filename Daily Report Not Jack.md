@@ -15,7 +15,7 @@ Kept working on editing the boiler plate of the library to custom fit our needs,
 # 4/30/19: Revenge of the Sith
 Not even riley could see what was wrong because of the lack of a debugger, making the library take way more time than it is worth.  Switched to a new library though!
 
-# 5/1/19: Star Wars: A Star Wars Story
+# 5/1/19: Solo: A Star Wars Story
 Found a great new library, but need mocha to run it.  However, my computer is fighting me with permission to install it.  It is saying that I need to be an admin.  Well, Riley fixed that with sudo, but still working on running the test.
 
 # 5/3/19: Rogue One: A Star Wars Story
