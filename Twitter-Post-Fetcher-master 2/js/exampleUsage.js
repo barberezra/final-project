@@ -73,7 +73,7 @@
  *************************************************************************/
 var configList = {
   "list": {"listSlug": 'inspiration', "screenName": 'jason_mayes'},
-  "domId": 'exampleList',
+  "domId": 'test',
   "maxTweets": 5,
   "enableLinks": true, 
   "showUser": true,
