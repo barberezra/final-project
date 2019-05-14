@@ -23,3 +23,6 @@ Found a new API, hopefully it works this time.  *sigh*
 
 # 5/8/19: A New Hope
 So that one didn't work.  What a surprise.  However, a new library shows promise, so much so that Riley wants to see it and asked me to email it to him.  
+
+# 5/14/19: The Empire Strikes Back
+A little progress what made, and I was able to input and control what the index html displayed.
