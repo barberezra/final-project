@@ -43,3 +43,7 @@
 - Presented in class!
 - Worked on styling with Ezra (being able to make images bigger when hovering over it)
 
+
+## 04-16
+
+- Added the ability to be able to change subreddit without reloading the page!
