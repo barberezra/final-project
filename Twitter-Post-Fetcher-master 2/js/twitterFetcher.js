@@ -48,6 +48,7 @@
       var x = tweets.length;
       var n = 0;
       var element = document.getElementById(domNode);
+      console.log(element);
       var html = '<ul>';
       while(n < x) {
         html += '<li>' + tweets[n] + '</li>';
@@ -87,6 +88,7 @@
   }
 
   function extractImagesUrl(image_data) {
+    console.log(image_data);
     if (image_data !== undefined && image_data.innerHTML.indexOf('data-image') >= 0) {
       var data_src = image_data.innerHTML.match(/data-image=\"([A-z0-9]+:\/\/[A-z0-9]+\.[A-z0-9]+\.[A-z0-9]+\/[A-z0-9]+\/[A-z0-9\-]+)\"/ig);
       for (var i = 0; i < data_src.length; i++) {
@@ -141,8 +143,10 @@
       }
 
       if (inProgress) {
+        console.log("Still in progress!")
         queue.push(config);
       } else {
+        console.log("Not in progress any more!");
         inProgress = true;
 
         domNode = config.domId;
@@ -541,8 +545,8 @@
  */
 
 
-var configProfile = {
-  "profile": {"screenName": 'PaleoParadox'},
+/*var configProfile = {
+  "profile": {"screenName": 'EAStarWars'},
   "domId": 'test',
   "maxTweets": 10,
   "enableLinks": true, 
@@ -554,17 +558,6 @@ var configProfile = {
 twitterFetcher.fetch(configProfile);
 
 
-var configLikes = {
-  "likes": {"screenName": 'jason_mayes'},
-  "domId": 'example2',
-  "maxTweets": 3,
-  "enableLinks": true, 
-  "showUser": true,
-  "showTime": true,
-  "showImages": true,
-  "lang": 'en'
-};
-twitterFetcher.fetch(configLikes);
 
 
 var configList = {
@@ -579,4 +572,20 @@ var configList = {
 };
 twitterFetcher.fetch(configList);
 
+*/
+function changePage(userName){
+  console.log("test")
+  window.configProfile = {
+    "profile": {"screenName": userName},
+    "domId": 'profile',
+    "maxTweets": 20,
+    "enableLinks": true, 
+    "showUser": true,
+    "showTime": true,
+    "showImages": true,
+    "lang": 'en'
+  };
+  console.log(window.configProfile);
+  twitterFetcher.fetch(window.configProfile);
+}
 
