@@ -47,3 +47,8 @@
 ## 04-16
 
 - Added the ability to be able to change subreddit without reloading the page!
+
+
+## 04-17
+
+- Helped Jack with running functions in his Twitter API
