@@ -27,3 +27,6 @@
 
 # WE GOT THE REDDIT API WORKING  BOIIIIIISSS!!!!!!!
  - This is the best day of our lives. We got the Reddit API working, and the user can access their own posts and every individual subreddit on the Internet.
+ 
+## 05-22
+ - Added rainbow color title. Also looked at Alberto's success with the Twitter API, which is much more readable than the last version. Everything is going smoothly.
