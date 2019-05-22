@@ -26,3 +26,6 @@ So that one didn't work.  What a surprise.  However, a new library shows promise
 
 # 5/14/19: The Empire Strikes Back
 A little progress what made, and I was able to input and control what the index html displayed.
+
+# 5/22/19 Return of the Jedi
+Got bootstrap working to format the twitter page
