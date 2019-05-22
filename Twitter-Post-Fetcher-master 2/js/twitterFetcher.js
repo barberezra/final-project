@@ -91,11 +91,13 @@
     console.log(image_data);
     if (image_data !== undefined && image_data.innerHTML.indexOf('data-image') >= 0) {
       var data_src = image_data.innerHTML.match(/data-image=\"([A-z0-9]+:\/\/[A-z0-9]+\.[A-z0-9]+\.[A-z0-9]+\/[A-z0-9]+\/[A-z0-9\-]+)\"/ig);
-      for (var i = 0; i < data_src.length; i++) {
-        data_src[i] = data_src[i].match(/data-image=\"([A-z0-9]+:\/\/[A-z0-9]+\.[A-z0-9]+\.[A-z0-9]+\/[A-z0-9]+\/[A-z0-9\-]+)\"/i)[1];
-        data_src[i] = decodeURIComponent(data_src[i]) + '.jpg';
+      if (data_src) {
+        for (var i = 0; i < data_src.length; i++) {
+          data_src[i] = data_src[i].match(/data-image=\"([A-z0-9]+:\/\/[A-z0-9]+\.[A-z0-9]+\.[A-z0-9]+\/[A-z0-9]+\/[A-z0-9\-]+)\"/i)[1];
+          data_src[i] = decodeURIComponent(data_src[i]) + '.jpg';
+        }
+        return data_src;
       }
-      return data_src;
     }
   }
  
@@ -542,38 +544,25 @@
  * @param object.lang [string] The abbreviation of the language you want to use
  *     for Twitter phrases like "posted on" or "time ago". Default value
  *     is "en" (English).
- */
-
-
-/*var configProfile = {
-  "profile": {"screenName": 'EAStarWars'},
-  "domId": 'test',
-  "maxTweets": 10,
-  "enableLinks": true, 
-  "showUser": true,
-  "showTime": true,
-  "showImages": true,
-  "lang": 'en'
-};
-twitterFetcher.fetch(configProfile);
-
-
-
-
-var configList = {
-  "list": {"listSlug": 'inspiration', "screenName": 'jason_mayes'},
-  "domId": 'example3',
-  "maxTweets": 3,
-  "enableLinks": true, 
-  "showUser": true,
-  "showTime": true,
-  "showImages": true,
-  "lang": 'en'
-};
-twitterFetcher.fetch(configList);
 
 */
-function changePage(userName){
+
+
+function changeTweets(thing){
+  var configList = {
+    "list": {"listSlug": thing, "screenName": 'jason_mayes'},
+    "domId": 'example3',
+    "maxTweets": 20,
+    "enableLinks": true, 
+    "showUser": true,
+    "showTime": true,
+    "showImages": true,
+    "lang": 'en'
+  };
+  twitterFetcher.fetch(configList);
+}
+
+function changeProf(userName){
   console.log("test")
   window.configProfile = {
     "profile": {"screenName": userName},
