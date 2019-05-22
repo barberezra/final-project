@@ -52,3 +52,8 @@
 ## 04-17
 
 - Helped Jack with running functions in his Twitter API
+
+
+
+## 04-22
+- Worked on the style sheet so it looks like the Reddit one!
