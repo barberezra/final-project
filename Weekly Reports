@@ -1,2 +1,107 @@
+## 03-30
+- I commmuncated snoowrap itself, using Riley's "suggestions" of first learning what commands I can actually do (learning snoowrap itself), with the hope of actually implementing these commands into a HTML later.
+
+
+## 04-01
+- Today, following Riley's otheer suggestion today, I started eperimenting with some of the code itself in snoowrap! I did a lot of trial and error, but I unfortunately did not get the code to work. However, I did definately get more familiar with the code itself!
+
+
+## 04-03 
+- I got to study the program itself more, as well as continue looking more wrappers!
+
+
+## 04-08
+- Presented in class!
+- Worked on styling with Ezra (being able to make images bigger when hovering over it)
+
+
+
+# Researched Twitter's API
+Looked into making a developer Twitter account, as well as creating an email for our project that we can create social media accounts under so we can access APIs.
+## 04-12
+ -  Created the README, including stylizing it!
+ ## 04-12
+ -  Created the README and Backlog files for our repo, and also added Riley and Alberto to the repo.
+
+
+## 04-16
+ -  Did a lot of research as well as investigating to find a way to incorporate the API's from various sites (Twitter and Reddit) into our own project 
+ - Riley also taught me how to do [THIS!](https://google.com)
+ ## 04-16
+- Added the ability to be able to change subreddit without reloading the page!
+## 04-16
+ -  Created and uploaded the simple React program that renders a link to the users' selected social media site to the screen
+ 
+
+## 04-17
+- Helped Jack with running functions in his Twitter API
+
+
+# 4/22/19: The Phantom Menace
+Applied for twitter dev account
+Researched more about twitter and reddit API
+Plan to create a reddit account, with which we will use to send requests
+## 04-22
+ - Today was a very busy class day! I spent a good amount of time  continuing trying to figure out how to incorporate Reddit (specifically!) With luck, I came across [snoowrap](https://github.com/not-an-aardvark/snoowrap) which is a wrapper, able to access the Reddit site! I ran out of time for today, but I know I need to incorporate [oauth](https://github.com/not-an-aardvark/reddit-oauth-helper) for next class, to be able to create a fully functional Reddit site (hopefully)! A challenge I'm facing is researching a bunch of new terms that I have never heard of before, as well as incorporating these new terms into my project.
+## 04-22
+- Worked on the style sheet so it looks like the Reddit one!
+ ## 04-22
+ - Uploaded the framework website for the API and also included support to input-based redirection. We have successfully found the APIs for Twitter and Reddit, and will still keep working on implementing the API in the local webpage.
+ - Added the framework for the API and will now keep working with the API and figuring out which feeds get priority and storing unloaded posts behind the overflow div in CSS.
+
+
+
+# 4/25/19: Attack of the Clones
+Created a Twitter app, found a javascript library for twitter's API, and got access tokens and keys.  They are a random, long string of letters.  Who could have guessed that?
+## 04-25
+- I got the client side of snoowrap to work (authenticating my login and everything!). Now, I need to work on actually displaying reddit itself.
+
+
+
+# 4/26/19: Star Wars: The Clone Wars
+Kept working on editing the boiler plate of the library to custom fit our needs, but ran into a really annoying 404. Progress is slow but steady.
+## 04-26
+- Today, I spent a large amount of class-time on researching on snoowrap actually displaying the actual code itself! This is definately becoming a challenge moving forward!
+## 04-26
+ - Redid the onUpdate function for the input bar. Also added support for the libraries. Still working on importing the libraries and incorporating them in the file.
+ 
+
+
+# 4/30/19: Revenge of the Sith
+Not even riley could see what was wrong because of the lack of a debugger, making the library take way more time than it is worth.  Switched to a new library though!
+## 04-30
+ - Figured out how to implement the reading of the input value and changing the state accordingly. We will incorporate the APIs soon, but I have to complete the value reading function.
+ 
+
+
+# 5/1/19: Solo: A Star Wars Story
+Found a great new library, but need mocha to run it.  However, my computer is fighting me with permission to install it.  It is saying that I need to be an admin.  Well, Riley fixed that with sudo, but still working on running the test.
+
+
+
+# 5/3/19: Rogue One: A Star Wars Story
+Found a new API, hopefully it works this time.  *sigh*
+## 05-3
+ - Need to figure out how to save and read the state of the input bar, but the function is not getting to the other function that saves it. That should be pretty simple, so I can spend the weekend working on it. We are now going to experiment with APIs and start linking them to website files and send and receive HTTP requests.
+# WE GOT THE REDDIT API WORKING  BOIIIIIISSS!!!!!!!
+ - This is the best day of our lives. We got the Reddit API working, and the user can access their own posts and every individual subreddit on the Internet.
+
+
+
+# 5/8/19: A New Hope
+So that one didn't work.  What a surprise.  However, a new library shows promise, so much so that Riley wants to see it and asked me to email it to him.  
+
+
+
+# 5/14/19: The Empire Strikes Back
+A little progress what made, and I was able to input and control what the index html displayed.
+
+
+
+# 5/22/19 Return of the Jedi
+Got bootstrap working to format the twitter page
+## 05-22
+ - Added rainbow color title. Also looked at Alberto's success with the Twitter API, which is much more readable than the last version. Everything is going smoothly.
 # Week of 5/20/19
 Styled the page as a whole, as well as intalled bootstrap to put elements into a table for ease of viewing.
+
