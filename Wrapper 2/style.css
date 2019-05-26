@@ -1,0 +1,41 @@
+input{
+	text-align:center;
+  	display: block;	
+  	background-color:lightgray;
+  	width: 100%
+}
+
+body{
+ background-color: gray;
+}
+
+h2{
+	font-size: 30px;
+	text-align:center;
+}
+h2:hover{
+	color:blue;
+}
+
+.center{
+	
+	text-align: center;}
+
+a{
+	color:black;
+
+}
+a:hover{
+	color:blue;
+	text-decoration: underline;}
+
+
+img{
+	display: block;
+	width: 100%
+  	 margin-top: 5px;
+  	margin-bottom: 15px;}
+
+
+img:hover {
+	transform: scale(2, 2);}
