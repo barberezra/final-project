@@ -17,12 +17,12 @@ h2:hover{
 	color:blue;
 }
 
-.center{
-	
-	text-align: center;}
 
 a{
+	display:inline-block;
 	color:black;
+	padding-left:15px;
+	padding-right: 15px;
 
 }
 a:hover{
@@ -31,11 +31,12 @@ a:hover{
 
 
 img{
-	display: block;
-	width: 100%
-  	 margin-top: 5px;
-  	margin-bottom: 15px;}
+	display: inline-block;
+	padding-left:15px;
+	padding-right:15px;
+	padding-bottom: 30px;
+	width: 100%}
 
 
 img:hover {
-	transform: scale(2, 2);}
+	transform: scale(1.5, 1.5);}
