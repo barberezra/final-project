@@ -161,7 +161,7 @@
         customCallbackFunction = config.customCallback;
         showInteractionLinks = config.showInteraction;
         showImages = config.showImages;
-  useEmoji = config.useEmoji;
+	useEmoji = config.useEmoji;
         targetBlank = config.linksInNewWindow;
         permalinks = config.showPermalinks;
         dataOnly = config.dataOnly;
@@ -577,3 +577,4 @@ function changeProf(userName){
   console.log(window.configProfile);
   twitterFetcher.fetch(window.configProfile);
 }
+

@@ -1,0 +1,102 @@
+body {
+  font-family:Arial,"Liberation Sans",sans-serif;
+  background-color: lightgray;
+}
+
+h2 {
+  font-size:30px;
+  text-align:center;
+  clear:both;
+}
+
+#typer {
+  margin:auto;
+  text-align: center;
+
+  font-size: 20px;
+  height: 25px;
+  margin-bottom: 34px;}
+
+
+p, a {
+  font-size:9pt;
+  margin:10px 0 0 0;
+  color:#3d3d3d;
+}
+
+
+a, a:visited {
+  color:#427fed;
+}
+
+a:hover {
+  color:#82afff;
+}
+
+ul li {
+  list-style:none;
+  overflow:hidden;
+  border:1px solid #dedede;
+  margin:5px;
+  padding:5px;
+}
+
+ul li:hover {
+  background-color:#f0f3fb;
+}
+
+.user, .tweet, .timePosted {
+}
+
+.user {
+  width:25%;
+}
+
+.tweet {
+  width:50%;
+}
+
+.timePosted {
+  width:15%;
+}
+
+.user {
+  clear:left;
+}
+
+.user a {
+ width: 100px;
+}
+
+.user span span {
+}
+
+.user img, .user a > span {
+  float:left;
+}
+
+.user div {
+ clear: left; 
+}
+
+.interact {
+
+}
+
+.interact a {
+
+}
+
+.user a > span {
+}
+
+.media img {
+ max-width: 500px;
+}
+
+#linkage {
+}
+
+.tco-hidden{
+  display: none;
+}
