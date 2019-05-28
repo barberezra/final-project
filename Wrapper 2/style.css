@@ -18,9 +18,9 @@ h2:hover{
 }
 
 
-a{
+a:link{
 	display:inline-block;
-	color:black;
+	color:inherit;
 	padding-left:15px;
 	padding-right: 15px;
 
