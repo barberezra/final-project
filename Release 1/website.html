@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<script type="text/javascript" src="twitterAPI/js/twitterFetcher.js"></script>
+<script src="whichsubreddit.js"></script>
+<script src="Timeline.js"></script>
+<script src="UserOnTwitter.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+ <script src="Reddit API/reddit.min.js"></script>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+
+<body style="background-color:darkgray">
+<div style="text-align:center;">
+<h1>S.M.Or </h1>
+<h3> Social Media Organizer </h3>
+Designed by Jack, Alberto, and Ezra
+</div>
+<br><br><br>
+
+<div class="container">
+  <div class="row">
+
+
+	 <div class="col-md-6">
+       <h2> User on Twitter</h2>
+       <input value="" onchange="changeProf(this.value)"size="30">
+        <div id="profile"></div>
+     </div>
+
+
+  	<div class="col-md-6">
+   		<h2>  Hot on Reddit /r</h2>
+   		<input value="" id="typer" onchange="whichsubreddit(this.value)"size="30">
+   			<br>
+   			<br>
+   		 <div id="reload"> </div>
+    	</div> </div></div></div></div>
+
+</body>
+</html>
+
+
+
+
