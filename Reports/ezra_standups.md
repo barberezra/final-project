@@ -33,3 +33,7 @@
  
 ## 05-28
  - Got the links unstyled. Going to style the Twitter section of the Bootstrap app like the Reddit section.
+ 
+## 05-29
+ - Got rid of the blue focus line around the textboxes, and styled the Twitter column appropriately.
+ - More styling to come.
