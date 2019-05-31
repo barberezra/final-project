@@ -37,3 +37,6 @@
 ## 05-29
  - Got rid of the blue focus line around the textboxes, and styled the Twitter column appropriately.
  - More styling to come.
+ 
+## 05-29
+ - Got text in Twitter to wrap properly.
