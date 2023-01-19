@@ -30,3 +30,13 @@
  
 ## 05-22
  - Added rainbow color title. Also looked at Alberto's success with the Twitter API, which is much more readable than the last version. Everything is going smoothly.
+ 
+## 05-28
+ - Got the links unstyled. Going to style the Twitter section of the Bootstrap app like the Reddit section.
+ 
+## 05-29
+ - Got rid of the blue focus line around the textboxes, and styled the Twitter column appropriately.
+ - More styling to come.
+ 
+## 05-29
+ - Got text in Twitter to wrap properly.

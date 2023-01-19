@@ -1,0 +1,69 @@
+
+
+## Week of 03/25/19
+- Commmuncated snoowrap itself, using Riley's suggestions of first learning what commands I can actually do (learning snoowrap itself), with the hope of actually implementing these commands into a HTML later.
+
+
+## Week of 04/01/19
+- started eperimenting with some of the code itself in snoowrap! I did a lot of trial and error, but I unfortunately did not get the code to work. However, I did definately get more familiar with the code itself! 
+- Got to study snoowrap more, as well as continue looking more wrappers!
+- started searching for a twitter API
+
+
+## Week of 04/08/19
+- Presented in class!
+- Worked on styling (being able to make images bigger when hovering over it)
+- Looked into making a developer Twitter account, as well as creating an email for our project that we can create social media accounts under so we can access APIs.
+- Created the README and Backlog files for our repo, and also added Riley and Alberto to the repo.
+
+
+## Week of 04/15/19
+- Did a lot of research as well as investigating to find a way to incorporate the API's from various sites (Twitter and Reddit) into our own project 
+- Added the ability to be able to change subreddit without reloading the page
+- Created and uploaded the simple React program that renders a link to the users' selected social media site to the screen
+- expirimented with functions in the current Twitter API
+
+
+## Week of 4/22/19
+- Applied for twitter dev account
+- Researched more about twitter and reddit API
+- Plan to create a reddit account, with which we will use to send requests
+- Spent a good amount of time  continuing trying to figure out how to incorporate Reddit With luck, and came across [snoowrap](https://github.com/not-an-aardvark/snoowrap) which is a wrapper, able to access the Reddit site
+- Worked on the style sheet so it looks like the Reddit one!
+- Uploaded the framework website for the API and also included support to input-based redirection. We have successfully found the API for Reddit, 
+- Added the framework for the API and will now keep working with the API and figuring out which feeds get priority and storing unloaded posts behind the overflow div in CSS.
+- Created a Twitter app, found a javascript library for twitter's API, and got access tokens and keys.  They are a random, long string of letters.  Who could have guessed that?
+- I got the client side of snoowrap to work (authenticating my login and everything!). Now, I need to work on actually displaying reddit itself.
+- Kept working on editing the boiler plate of the twitter API library to custom fit our needs, but ran into a really annoying 404. Progress is slow but steady.
+- spent a large amount of class-time on researching on snoowrap actually displaying the actual code itself
+- Redid the onUpdate function for the input bar in SnooWrap. Also added support for the libraries. Still working on importing the libraries and incorporating them in the file.
+ 
+
+
+## Week of 4/29/19
+- Not even riley could see what was wrong with this twitter API Library because of the lack of a debugger, making the library take way more time than it is worth.  Switched to a new library though
+- Figured out how to implement the reading of the input value and changing the state accordingly in the Reddit API. We will incorporate the APIs soon
+- Found a great new library, but need mocha to run it.  However, my computer is fighting me with permission to install it.  It is saying that I need to be an admin.  Well, Riley fixed that with sudo, but still working on running the test.
+- Found a new twitter API, hopefully it works this time.  *sigh*
+- Need to figure out how to save and read the state of the input bar, but the function is not getting to the other function that saves it. That should be pretty simple, so I can spend the weekend working on it. We are now going to experiment with APIs and start linking them to website files and send and receive HTTP requests.
+- WE GOT THE REDDIT API WORKING  BOIIIIIISSS!!!!!!!
+- This is the best day of our lives. We got the Reddit API working, and the user can access their own posts and every individual subreddit on the Internet.
+
+
+
+## Week of 5/6/19
+- So that twitter Library didn't work.  What a surprise.  However, a new library shows promise, so much so that Riley wants us to email it to him.  
+
+
+
+# 5/13/19
+- A little progress what made, and was able to input and control what the index html displayed on Reddit
+
+
+
+# Week of 5/20/19
+- Styled the page as a whole, as well as intalled bootstrap to put elements into a table for ease of viewing.
+- Added rainbow color title.
+- Got Twitter API library to succesfully work with a search bar, allowing user profiles to be viewed
+
+

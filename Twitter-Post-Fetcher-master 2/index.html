@@ -1,21 +1,27 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="keywords" content="Twitter API Fetcher" />
-    <meta name="description" content="Allows you to fetch your twitter posts without using the 1.1 API. Pure JavaScript! Learn more and get updates at: http://www.jasonmayes.com/projects/twitterApi/" />
-    <meta name="author" content="Jason Mayes" />
-    <link href="css/style.css" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
-      <div style="display:block;text-align: center">
-    <h2>Twitter Search</h2>
-    <input id="typer" value="" onchange="changePage(this.value)"size="32">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="keywords" content="Twitter API Fetcher" />
+  <title>SMOr</title>
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h2>Twitter Profile Search</h2>
+        <input value="" onchange="changeProf(this.value)"size="32">
+        <div id="profile"></div>
+      </div>     
     </div>
-    <div style="display:block;text-align: left">
-    <div id="profile"></div>
-    </body>
-    <script type="text/javascript" src="js/twitterFetcher.js"></script>
   </div>
-  </body>
+</body>
+<script type="text/javascript" src="js/twitterFetcher.js"></script>
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</body>
 </html>

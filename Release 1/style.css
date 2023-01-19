@@ -1,0 +1,53 @@
+input{
+	text-align:center;
+  	display: block;	
+  	background-color:lightgray;
+  	width: 100%
+}
+
+body{
+ background-color: gray;
+}
+
+h2{
+	font-size: 30px;
+	text-align:center;
+}
+h2:hover{
+	color:blue;
+}
+
+
+a:link,a,p.tweet{
+	display:inline-block;
+	color:inherit;
+	padding-left:15px;
+	padding-right: 15px;
+
+}
+a:hover{
+	color:blue;
+	text-decoration: underline;}
+
+
+img{
+	display: inline-block;
+	padding-left:15px;
+	padding-right:15px;
+	padding-bottom: 30px;
+	width: 100%}
+
+
+
+ul,li{
+	list-style-type:none;
+	padding-left:0px;
+	margin-left:0px,;
+}
+
+body:not(.user-is-tabbing) button:focus,
+body:not(.user-is-tabbing) input:focus,
+body:not(.user-is-tabbing) select:focus,
+body:not(.user-is-tabbing) textarea:focus {
+	outline:none;
+}

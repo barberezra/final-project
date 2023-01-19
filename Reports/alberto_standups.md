@@ -57,3 +57,9 @@
 
 ## 04-22
 - Worked on the style sheet so it looks like the Reddit one!
+
+## 4-28
+-Worked on a few styling elements for links!
+
+## 4-29
+-Worked on combining the stylings of the two API's
